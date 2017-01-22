@@ -1,0 +1,23 @@
+$primaryFont: 'Raleway', sans-serif;
+$primary: #7a7a7a;
+
+body {
+	height: 100%;
+	font-family: $primaryFont;
+    background: linear-gradient(90deg, #e0e0e0, #ececec);
+}
+h2 {
+	color: $primary;
+}
+
+#custom-search-input{
+	padding: 3px;
+	border: solid 1px #E4E4E4;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+#custom-search-input input{
+	border: 0;
+	box-shadow: none;
+}
